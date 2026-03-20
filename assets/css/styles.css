@@ -1,0 +1,39 @@
+/* General Style Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5dc; /* Beige */
+    color: #3b3c36; /* Dark Green */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #3b3c36;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.section {
+    padding: 100px 20px;
+}
+
+.cta {
+    background-color: #3b3c36;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+}
